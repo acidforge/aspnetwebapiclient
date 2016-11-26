@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
 
 ext {
     bintrayRepo = 'maven'
@@ -12,7 +11,7 @@ ext {
     gitUrl = 'https://github.com/acidforge/aspnetwebapiclient'
     libraryVersion = '0.0.1'
 
-    developerId = 'acidforge'
+    developerId = 'jmoisespg'
     developerName = 'Moises Goncalves'
     developerEmail = 'jmoisespg@gmail.com'
 
