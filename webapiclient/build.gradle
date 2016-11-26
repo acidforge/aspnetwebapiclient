@@ -1,5 +1,25 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'webapiclient'
+    publishedGroupId = 'net.acidforge.webapiclient'
+    libraryName = 'webapiclient'
+    artifact = 'webapiclient'
+    libraryDescription = 'WebApi Http Client for Android Apps'
+    siteUrl = 'https://github.com/acidforge/aspnetwebapiclient'
+    gitUrl = 'https://github.com/acidforge/aspnetwebapiclient'
+    libraryVersion = '0.0.1'
+
+    developerId = 'acidforge'
+    developerName = 'Moises Goncalves'
+    developerEmail = 'jmoisespg@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
@@ -24,6 +44,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:24.2.0'
     compile 'com.google.code.gson:gson:2.8.0'
+
+
+
 }

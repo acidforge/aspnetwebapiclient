@@ -1,4 +1,4 @@
-package net.system.http;
+package net.acidforge.webapi;
 
 import android.content.Context;
 import android.os.AsyncTask;

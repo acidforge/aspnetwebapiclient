@@ -1,4 +1,4 @@
-package net.system.http;
+package net.acidforge.webapi;
 
 /***
  * Callback to be executed after a http request is sent
