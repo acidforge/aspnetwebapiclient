@@ -36,9 +36,9 @@ properties.load(project.rootProject.file('local.properties').newDataInputStream(
 bintray {
     user = properties.getProperty("bintray.user")
     key = properties.getProperty("bintray.apikey")
-
     configurations = ['archives']
     pkg {
+        userOrg = 'acidforge'
         repo = 'maven'
         name = 'webapiclient'
         desc = 'WebApi Http Client for Android Apps'
